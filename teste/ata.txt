@@ -1,9 +1,1 @@
-
-"""
-subir muitos arquivos
-
-criar bucket backups 
-
-configurar para o script rodar uma 1x no dia(usar super visor ou algo de cronjob)
-
-"""
+teste
