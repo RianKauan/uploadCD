@@ -9,6 +9,6 @@ pyenv activate test || { echo "Falha ao ativar o ambiente Pyenv"; exit 1; }
 
 #poetry install || { echo "Falha ao instalar dependências"; exit 1; }
 
-python test.py || { echo "Falha ao executar o script Python"; exit 1; }
+python backups.py || { echo "Falha ao executar o script Python"; exit 1; }
 
 echo "Script executado com sucesso!"
